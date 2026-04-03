@@ -1,0 +1,61 @@
+############################
+# OS / Tooling noise
+############################
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+*.lock
+
+############################
+# Git internals (important)
+############################
+.git/
+.gitmodules
+
+############################
+# Ignition Gateway runtime noise
+############################
+data/cache/
+data/logs/
+data/tmp/
+data/metrics/
+data/diagnostics/
+data/heapdumps/
+
+############################
+# Ignition backups & exports
+############################
+*.gwbk
+*.zip
+
+############################
+# Ignition conversion artifacts
+############################
+conversion-report.txt
+
+############################
+# Vision binary resources (not diff-friendly)
+############################
+*.bin
+
+############################
+# Module state & runtime data
+############################
+data/modules/*/state/
+data/modules/*/cache/
+
+############################
+# Optional: Designer user state
+############################
+designer/
+
+############################
+# Optional: Secrets (strongly recommended)
+############################
+secrets/
+*.key
+*.pfx
+*.jks
